@@ -87,7 +87,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document5]
-DocumentPath=STMicro_PowerManagement.SchLib
+DocumentPath=Libraries\STMicro_PowerManagement.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
