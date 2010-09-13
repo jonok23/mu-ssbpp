@@ -1,15 +1,20 @@
 General:
 	- Decide on connectors for Valves {6 pins}
-	- Actually get some valves
+	
 	- Decide on connectors throughout, with the following specific connectors:
 		* Programming for goggles: USFF for ISP when assembled
 		* Programming on other units: 2X3 pin header for programming
-		* 
+		* Order parts
 
 
 Glasses:
-	- Change power supply from ST DC-DC synchronous rectifier to TI part.
-	- TI part: Only one needed (1.5A output capacity).
+	
+	
 	- Find headlamp LED's. High intensity, need to decide on colour.
 	- Electroluminescent wire and driver - Potentially use for glowing conduit.
 
+Next time:
+	- Order REG104-5 regulators
+	- Find regulators for the charger circuitry
+	- select diodes and pnp transistors for the charger circuit
+	- add voltage read for charger circuit
