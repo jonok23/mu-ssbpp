@@ -14,7 +14,5 @@ Glasses:
 	- Electroluminescent wire and driver - Potentially use for glowing conduit.
 
 Next time:
-	- Order REG104-5 regulators
-	- Find regulators for the charger circuitry
 	- select diodes and pnp transistors for the charger circuit
-	- add voltage read for charger circuit
+	- add voltage read for charger circuit see example on charger sheet
