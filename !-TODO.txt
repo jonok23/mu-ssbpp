@@ -11,8 +11,11 @@ Glasses:
 	
 	
 	- Find headlamp LED's. High intensity, need to decide on colour.
-	- Electroluminescent wire and driver - Potentially use for glowing conduit.
+	
 
 Next time:
 	- select diodes and pnp transistors for the charger circuit
 	- add voltage read for charger circuit see example on charger sheet
+	- Electroluminescent wire and driver - Potentially use for glowing conduit.
+	- Pick diode for glasses power supply
+	- remove conduit LEDs and replace with HV connector
