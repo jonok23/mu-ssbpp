@@ -147,7 +147,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document9]
-DocumentPath=MasterBoard.PcbDoc
+DocumentPath=MasterBoardv2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
