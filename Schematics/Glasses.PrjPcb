@@ -27,6 +27,21 @@ PushECOToAnnotationFile=1
 DItemRevisionGUID=
 
 [Document1]
+DocumentPath=MasterBoard.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+
+[Document2]
 DocumentPath=Glasses.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=101
@@ -41,7 +56,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document2]
+[Document3]
 DocumentPath=Libraries\Schlib1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -56,7 +71,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document3]
+[Document4]
 DocumentPath=Valve.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=401
@@ -71,7 +86,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document4]
+[Document5]
 DocumentPath=Libraries\Atmel\Atmel Microcontroller 8-Bit AVR.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -86,7 +101,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document5]
+[Document6]
 DocumentPath=Libraries\STMicro_PowerManagement.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +116,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document6]
+[Document7]
 DocumentPath=Charger.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=301
@@ -116,7 +131,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document7]
+[Document8]
 DocumentPath=Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=201
@@ -131,23 +146,8 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
-[Document8]
-DocumentPath=Libraries\mu-ssbpp_FootprintLibrary.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-
 [Document9]
-DocumentPath=MasterBoardv2.PcbDoc
+DocumentPath=Libraries\mu-ssbpp_FootprintLibrary.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
