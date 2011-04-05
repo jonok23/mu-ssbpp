@@ -118,7 +118,7 @@ DItemRevisionGUID=
 
 [Document7]
 DocumentPath=Charger.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=301
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
