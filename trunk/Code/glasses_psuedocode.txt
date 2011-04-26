@@ -1,0 +1,73 @@
+INIT(
+
+ADC_init
+
+read_battery
+
+Uart_init
+
+timer2_init
+
+ping_request (sends the value it is passed over the usart)
+
+loop(
+read_uart
+
+on_or_off(breaks loop if data is received from base unit)
+
+counter increments
+
+
+if counter overflows
+sleep(turn micro into power saving mode initialises timer2 disables all other peripherals )
+
+)
+
+Receieve_settings (commnicates with the base unit to configure current settings)
+
+GPIO_enable (set I/O as input or output)
+timer_init
+
+
+)
+
+Main loop (
+
+
+Ping_request 
+receive data
+Adjust_pwm_set_points (values / sleep)
+Read_battery (read from ADC the battery voltage determine if ok)
+Read_timer
+
+calculate_outputs (calculates new output state based on timers, current set point, battery state, and current output includes, flicker effects)
+(
+battery_calculation (battery voltage, RGB set_point pointers, valve number) repeat for each valve
+
+
+current value = newvaluecalculator(current set point, current value  ,transistion rate) repeat for all lens/valve RGB values 12 x
+
+conditional (RGB_lens_currentvalues, if all 0 turn off SMPS, else turn on)
+
+colour_output state = determine_output_state (current value, timer_value) returns high if pin should be on
+
+timer_reset (reset the timer if it overflows a set value)
+
+)
+
+
+Set_pwm_output (sets the output values to the valves and lenses, enables/disables the power supply to the lens as needed)
+Set_other_outputs (headlights)
+
+
+
+conditional (sleep())
+
+)
+
+
+ping_data(
+
+
+
+)
