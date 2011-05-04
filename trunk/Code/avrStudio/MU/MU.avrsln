@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# AvrStudio Solution File, Format Version 11.00
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "controllerAVR", "controllerAVR\controllerAVR.avrgccproj", "{2029B9E8-5CAD-4A78-A57A-BB7CBC45DEA1}"
+EndProject
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "gogglesAVR", "gogglesAVR\gogglesAVR.avrgccproj", "{971C737C-867B-4A34-88F2-3C55DD75C258}"
+EndProject
+Project("{D1100916-62DA-4D80-A9B4-55A1E7CCEEB3}") = "chargerAVR", "chargerAVR\chargerAVR.avrgccproj", "{7764BC62-A149-48FE-AD67-53ED2E51A45D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2029B9E8-5CAD-4A78-A57A-BB7CBC45DEA1}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2029B9E8-5CAD-4A78-A57A-BB7CBC45DEA1}.Debug|AVR.Build.0 = Debug|AVR
+		{2029B9E8-5CAD-4A78-A57A-BB7CBC45DEA1}.Release|AVR.ActiveCfg = Release|AVR
+		{2029B9E8-5CAD-4A78-A57A-BB7CBC45DEA1}.Release|AVR.Build.0 = Release|AVR
+		{971C737C-867B-4A34-88F2-3C55DD75C258}.Debug|AVR.ActiveCfg = Debug|AVR
+		{971C737C-867B-4A34-88F2-3C55DD75C258}.Debug|AVR.Build.0 = Debug|AVR
+		{971C737C-867B-4A34-88F2-3C55DD75C258}.Release|AVR.ActiveCfg = Release|AVR
+		{971C737C-867B-4A34-88F2-3C55DD75C258}.Release|AVR.Build.0 = Release|AVR
+		{7764BC62-A149-48FE-AD67-53ED2E51A45D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7764BC62-A149-48FE-AD67-53ED2E51A45D}.Debug|AVR.Build.0 = Debug|AVR
+		{7764BC62-A149-48FE-AD67-53ED2E51A45D}.Release|AVR.ActiveCfg = Release|AVR
+		{7764BC62-A149-48FE-AD67-53ED2E51A45D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
